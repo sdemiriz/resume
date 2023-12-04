@@ -5,16 +5,20 @@
 \usepackage{geometry}
 \geometry{letterpaper, portrait, margin=.75in}
 
+% Define constants
 \newcommand{\name}{Sedat Demiriz}
 \newcommand{\email}{sedatdemiriz97@gmail.com}
 \newcommand{\phone}{778-866-9440}
 \newcommand{\website}{sdemiriz.github.io}
 
+% Add custom commands for reused document sections
 \newcommand{\customitem}{\item[] \hspace{-.85cm}}
 \newcommand{\experienceheader}[3]{\customitem \textbf{#1} - \textit{#2} \hfill \textit{#3}}
 \newcommand{\customsection}[1]{\section*{#1} \vspace{-.3cm} \hrulefill}
 
 \begin{document}
+
+% Set up the header
 \begin{minipage}[t]{1\textwidth} 
   \centering \Huge 
   \textbf{\name} \vspace{.5cm} 
@@ -24,6 +28,7 @@
   \phone \hspace{.1cm}-\hspace{.1cm} \email \hspace{.1cm}-\hspace{.1cm} \website 
 \end{minipage}
 
+% Education
 \customsection{Experience}
 \begin{itemize}
     \experienceheader{Computational Biologist}{Sequence Bio Inc.}{Jul '21 -- Nov '23}
@@ -52,6 +57,7 @@
     \end{itemize}
 \end{itemize}
 
+% Skills
 \customsection{Skills}
 \begin{itemize}
   \customitem Experience implementing robust genomics data processing workflows using pipeline utilities
@@ -61,6 +67,7 @@
   \customitem Querying SQL databases and unstructured public health data sources
 \end{itemize}
 
+% Education
 \customsection{Education}
 \begin{itemize}
 \experienceheader{BSc Joint Major Mol. Biology and Biochem. \& Comp. Sci.}{Simon Fraser University}{'15 -- '20}
@@ -71,6 +78,7 @@
   \end{tabular}
 \end{itemize}
 
+% Publications
 \customsection{Publications}
 \begin{itemize}
   \customitem one
