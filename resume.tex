@@ -16,25 +16,25 @@
 \newcommand{\website}{sdemiriz.github.io}
 
 % Add custom commands for reused document sections
-\newcommand{\experienceheader}[3]{\customitem \textbf{#1} - \textit{#2} \hfill \textit{#3}}
-\newcommand{\customsection}[1]{\section*{#1} \vspace{-.3cm} \hrulefill}
+\newcommand{\experienceheader}[3]{\item \textbf{#1} - \textit{#2} \hfill \textit{#3} \vspace{-.2em}}
+\newcommand{\customsection}[1]{\section*{#1} \vspace{-1em} \hrulefill \vspace{-.5em}}
 
 \begin{document}
 
 % Set up the header
 \begin{minipage}[t]{1\textwidth} 
   \centering \Huge 
-  \textbf{\name} \vspace{.5cm} 
+  \textbf{\name} \vspace{.5em} 
 \end{minipage}
 \begin{minipage}[t]{1\textwidth} 
   \centering \normalsize 
-  \phone \hspace{.1cm}-\hspace{.1cm} \email \hspace{.1cm}-\hspace{.1cm} \website 
+  \phone\hspace{0.5em}-\hspace{0.5em}\email\hspace{0.5em}-\hspace{0.5em}\website
 \end{minipage}
 
-% Education
+% Experience
 \customsection{Experience}
 \begin{itemize}
-    \experienceheader{Computational Biologist}{Sequence Bio Inc.}{Jul '21 -- Nov '23}
+  \experienceheader{Computational Biologist}{Sequence Bio Inc.}{Jul '21 -- Nov '23}
     \begin{itemize}
       \item Lead the development of GWAS and ROH analysis pipelines with a focus on scalability and reproducibility
       \item Derived disease associations by analyzing data from company's Newfoundland population cohort
