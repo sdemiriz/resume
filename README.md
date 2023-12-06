@@ -2,7 +2,7 @@
 
 ## Terms of Use
 
-I own all rights to the content of the documents in this repository. Using as a reference is allowed, copy and use ny anyone other than myself not allowed.
+I own all rights to the content of the documents in this repository. Using as a reference for generating your own documents with your respective content is allowed, copy and use by anyone other than myself not allowed.
 
 ## Description
 
