@@ -6,6 +6,7 @@
 \geometry{letterpaper, portrait, margin=.75in}
 
 \usepackage{enumitem}
+\usepackage{bibentry}
 
 % Define constants
 \newcommand{\name}{Sedat Demiriz}
@@ -98,13 +99,14 @@ general and disease population cohorts
 \end{itemize}
 
 % Publications
+\setlist[itemize, 1]{label=\!, leftmargin=0em}
+
+\bibliographystyle{apalike}
+\nobibliography{publications}
 \customsection{Publications}
 \begin{itemize}
-  \item \cite{nl_pop_descends_2023}
-  \item two
+  \item \textbf{-} \bibentry{nl_pop_descends_2023}
+  \item \textbf{-} \bibentry{nl_y_chrom_2022}
 \end{itemize}
-
-\bibliography{publications}
-\bibliographystyle{ieeetr}
 
 \end{document}
