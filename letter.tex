@@ -1,0 +1,41 @@
+
+\documentclass{article}
+
+% Page geometry settings
+\usepackage{geometry}
+\geometry{letterpaper, portrait, margin=.75in}
+
+\usepackage{enumitem}
+\usepackage{bibentry}
+
+% Define constants
+\newcommand{\name}{Sedat Demiriz}
+\newcommand{\email}{sedatdemiriz97@gmail.com}
+\newcommand{\phone}{778-866-9440}
+\newcommand{\website}{sdemiriz.github.io}
+
+% Remove page numbers
+\thispagestyle{empty}
+
+% Add custom commands for reused document sections
+\newcommand{\experienceheader}[3]{\item \textbf{#1} - \textit{#2} \hfill \textit{#3} \vspace{-.2em}}
+\newcommand{\customsection}[1]{\section*{#1} \vspace{-1em} \hrulefill \vspace{-.5em}}
+
+\begin{document}
+
+% Set up the header
+\begin{minipage}[t]{1\textwidth} 
+  \centering \Huge 
+  \textbf{\name} \vspace{.5em} 
+\end{minipage}
+\begin{minipage}[t]{1\textwidth} 
+  \centering \normalsize 
+  \phone\hspace{0.5em}-\hspace{0.5em}\email\hspace{0.5em}-\hspace{0.5em}\website
+\end{minipage}
+
+\\\\
+Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+\\\\
+Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+\\\\
+\end{document}
