@@ -7,12 +7,7 @@
 
 \usepackage{enumitem}
 \usepackage{bibentry}
-
-% Define constants
-\newcommand{\name}{Sedat Demiriz}
-\newcommand{\email}{sedatdemiriz97@gmail.com}
-\newcommand{\phone}{778-866-9440}
-\newcommand{\website}{sdemiriz.github.io}
+\usepackage{subfiles}
 
 % Remove page numbers
 \thispagestyle{empty}
@@ -23,15 +18,7 @@
 
 \begin{document}
 
-% Set up the header
-\begin{minipage}[t]{1\textwidth} 
-  \centering \Huge 
-  \textbf{\name} \vspace{.5em} 
-\end{minipage}
-\begin{minipage}[t]{1\textwidth} 
-  \centering \normalsize 
-  \phone\hspace{0.5em}-\hspace{0.5em}\email\hspace{0.5em}-\hspace{0.5em}\website
-\end{minipage}
+\subfile{header}
 
 % Professional Summary
 \section*{Professional Summary} \vspace{-1em} \hrulefill \vspace{.5em}
